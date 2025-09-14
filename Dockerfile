@@ -1,6 +1,6 @@
 FROM n8nio/n8n
 
 WORKDIR /data
-EXPOSE 5678
+EXPOSE 10000
 
-CMD ["n8n", "start"]
+CMD ["n8n", "start", "--port", "10000"]
