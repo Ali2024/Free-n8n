@@ -17,3 +17,5 @@ services:
         value: "n8n-service.onrender.com"
       - key: N8N_PORT
         value: "10000"
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: "false"
